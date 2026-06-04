@@ -1,0 +1,49 @@
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: turquoise;
+}
+
+#container {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-image: url('https://5.imimg.com/data5/WP/AM/MY-48781291/fancy-wall-papers.jpg');
+}
+
+#b1 {
+    background-color: #ff23aa;
+}
+
+#b2 {
+    background-color: rgb(244, 100, 50);
+}
+
+#b3 {
+    background-color: rgba(244, 100, 50, 0.7)
+}
+
+#b4 {
+    background-color: hsl(153, 10%, 80%);
+}
+
+#b5 {
+    background-color: hsla(205, 40%, 60%, 0.8);
+}
+
+.canvas {
+    height: 50vh;
+    width: 50vw;
+    background-color: crimson;
+}
+
+.child {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+}
+.subchild {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(23, 228, 74);
+}

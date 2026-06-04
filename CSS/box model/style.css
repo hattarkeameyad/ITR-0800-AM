@@ -1,0 +1,41 @@
+.box{
+    display: inline-block;
+    height:300px;
+    width:300px;
+    background-color: rgb(14, 105, 75);
+    margin-top:80px;
+    padding:15px;
+    margin: 10px;
+    outline-width: 2px;
+    outline-color: rgb(250, 15, 78);
+    outline-style: dashed;
+    outline: 10px dotted yellowgreen;
+    border: 5px dashed rgb(244, 235, 244) ;
+    box-sizing: border-box;
+}
+.subbox{
+    width:50%;
+    height:50%;
+    background-color: red;
+}
+
+img{
+    height: 100%;
+    width:100%
+}
+.box>img{
+
+    object-fit: contain;
+}
+
+.shelf{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('https://rukminim2.flixcart.com/fk-p-flap/3200/1560/image/2b99e8ac4fe12718.jpg?q=60');
+}
+
+.background{
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-image: url('https://art.pixilart.com/thumb/sr211b325febfaws3.png');
+}

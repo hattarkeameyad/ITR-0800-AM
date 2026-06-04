@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First form</title>
+</head>
+
+<body>
+
+
+    <form action="" method="">
+        <table cellspacing="0" border="0" cellpadding='15'>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" placeholder="Please enter your full name" required maxlength="8" minlength="2"  name="" id=""></td>
+                <td>Date Time</td>
+                <td><input type="datetime-local" max="2026-09-01T08:30" min="2026-08-01T08:30"  name="" id=""></td>
+                <td>File</td>
+                <td><input type="file"  accept=".jpg,.pdf" name="" id=""></td>
+                <td>Checkboxes</td>
+                <td><input type="checkbox" name="Subject" value="Html" id="">Html
+                    <input type="checkbox" name="Subject" value="Css" id="">Css
+                </td>
+            </tr>
+            <tr>
+                <td>email:</td>
+                <td><input type="email" autofocus multiple name="" required id=""></td>
+                <td>time</td>
+                <td><input type="time" min="08:30" max="21:59" name="" id=""></td>
+                <td>URL</td>
+                <td> <input type="url" name="" id=""></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" required name="" id=""></td>
+                <td>color picker</td>
+                <td><input type="color" name="" value="#b0ffa0" id=""></td>
+                <td>Search</td>
+                <td><input type="search" readonly name="" id=""></td>
+                <td>Dropdown</td>
+                <td> <select size="1" multiple name="" id="">
+                    <option value="Html">Html</option>
+                    <option value="css">css</option>
+                    <option value="Js">Html</option>
+                    <option value="React">css</option>
+                    <optgroup label="Chemistry">
+                        <option value="">Thermodynamics</option>
+                        <option value="">Corsion</option>
+                        <option value="">Organic chemisty</option>
+                        <option value="">Inorganic chemistry</option>
+                    </optgroup>
+                    <option value="Node" selected>Node</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Number:</td>
+                <td><input type="number" min="18" step="5" max="500" name="" id=""></td>
+                <td>hidden</td>
+                <td><input type="hidden" name=""></td>
+                <td>Textarea</td>
+                <td><textarea name="" cols="50" rows="08" id="" autocomplete="street-address" value=""></textarea></td>
+
+            </tr>
+            <tr>
+                <td>Date:</td>
+                <td><input type="date" name="" id=""></td>
+                <td>Disabled</td>
+                <td><input type="text" disabled></td>
+                <td>Radio</td>
+                <td>
+                    <input type="radio" name="Radio" value="radio" id=""> Radio 
+                    <input type="radio" name="Radio" value="Taperecorder" id=""> Tape 
+                     <input type="radio" name="Radio" checked value="floppy" id=""> Floppy 
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Submit"></td>
+                <td colspan="2"> <input type="reset" value="Reset"></td>
+                <td colspan="2"> <input type="button" value="Reload"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my First css</title>
+    <style>
+        p {
+            font-size: 128px;
+            color: aquamarine;
+        }
+
+        #porder {
+            background-color: red !important;
+        }
+
+        h2 {
+            color: peru;
+            font-size: xx-large;
+            font-weight: 700;
+            font-family: cursive;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="box1">
+        <h1 style="color: red;font-size: 64px;">This is inline css</h1>
+        <p>This is paragraph tag</p>
+    </div>
+    <div id="first_div">
+        This is div tag.
+    </div>
+    <!--Below is the priority order code-->
+    <div id="porder" style="background-color: pink;">
+        This is priority
+    </div>
+
+    <!--Below code is for type of selectors-->
+
+    <h2 id="id1" class="h2group">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, autem officia omnis
+        repudiandae laboriosam perferendis illum dignissimos aut voluptate tenetur.</h2>
+    <h2 id="id2" class="h2group">THis is another h2 tag</h2>
+    <h2 id="id3" class="h2group">This is third line</h2>
+    <h2 class="h2group">This is fourth line</h2>
+    <h2 class="h2group">This one is 5th line</h2>
+    <h2 class="h2group">This one is 6th line</h2>
+    <h2 class="h2group">THis one is 7th line</h2>
+
+    <div id="another_box">
+
+        <h2 id="id1" class="h2group">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, autem officia omnis
+            repudiandae laboriosam perferendis illum dignissimos aut voluptate tenetur.</h2>
+        <h2 id="id2" class="h2group">THis is another h2 tag</h2>
+        <h2 id="id3" class="h2group">This is third line</h2>
+        <h2 class="h2group">This is fourth line</h2>
+        <h2 class="h2group">This one is 5th line</h2>
+        <h2 class="h2group">This one is 6th line</h2>
+        <h2 class="h2group">THis one is 7th line</h2>
+        <div id="box_within_box">
+            <h2 id="id1" class="h2group">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, autem officia
+                omnis repudiandae laboriosam perferendis illum dignissimos aut voluptate tenetur.</h2>
+            <h2 id="id2" class="h2group">THis is another h2 tag</h2>
+            <h2 id="id3" class="h2group">This is third line</h2>
+            <h2 class="h2group">This is fourth line</h2>
+            <h2 class="h2group">This one is 5th line</h2>
+            <h2 class="h2group">This one is 6th line</h2>
+            <h2 class="h2group">THis one is 7th line</h2>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

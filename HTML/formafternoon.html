@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms afternoon</title>
+</head>
+
+<body>
+    <form action="" method="">
+        <table cellspacing="0" border="1" cellpadding="30">
+            <tr>
+                <td>Input type:text</td>
+                <td><input type="text" required maxlength="10" minlength="2" placeholder="Enter your name" name=""
+                        id=""></td>
+                <td>Email</td>
+                <td><input placeholder="Enter your email" value="" multiple type="email" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="" id=""></td>
+
+                <td>Number</td>
+                <td><input type="number" min="18" max="45" step="5" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>Date</td>
+                <td><input type="date" min="2026-05-30" max="2026-07-30" name="" id=""></td>
+
+                <td>Date Time</td>
+                <td><input type="datetime-local" min="2026-05-30T18:00" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>Time</td>
+                <td><input type="time" min="14:00" max="16:00" name="" id=""></td>
+                <td>Color</td>
+                <td>
+                    <input type="color" value="#a03f0f" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>File:</td>
+                <td><input type="file" multiple accept=".jpg,.pdf,.x
+                    ls" name="" id=""></td>
+                <td>URL</td>
+                <td><input type="url" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>search</td>
+                <td><input type="search" name="My Search" id=""></td>
+                <td>
+                    Radio
+                </td>
+                <td><input type="radio" name="gender" value id="" checked> Male <input type="radio" name="gender" value
+                        id=""> Female </td>
+            </tr>
+            <tr>
+                <td>Text area</td>
+                <td><textarea autofocus autocomplete="street-address" rows="10" cols="30" name="" id=""></textarea></td>
+                <td>
+                    Checkboxes
+                </td>
+                <td>
+                    <input type="checkbox" name="subjects" checked value="Physics" id=""> Physics
+                    <input type="checkbox" name="subjects" checked value="Chemistry" id=""> Chemistry
+                    <input type="checkbox" name="subjects" value="Biology" id=""> Biology
+                    <input type="checkbox" name="subjects" value="Mathematics" id=""> Mathematics
+                </td>
+            </tr>
+            <tr>
+                <td>Dropdown (Prefered Location)</td>
+                <td>
+                    <select name="" id="" size="1" >
+                        <optgroup label="Maharashtra">
+                            <option value="">Ch SambhajiNagar</option>
+                            <option value="">Ahilyanagar</option>
+                            <option value="" selected>Pune</option>
+                            <option value="">Mumbai</option>
+                        </optgroup>
+                        <optgroup label="TamilNadu">
+                            <option value="">Chennai</option>
+                        </optgroup>
+                        <optgroup label="karnataka">
+                            <option value="">Bangalore</option>
+                        </optgroup>
+                    </select>
+                </td>
+                <td>
+                    Hidden
+                </td>
+                <td>
+                    <input type="hidden" name="hiddenvalue">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+                <td><input type="reset" value="Reset"></td>
+                <td colspan="2">
+                    <input type="button" value="Review">
+
+
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+
+</html>
