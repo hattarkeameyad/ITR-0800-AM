@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+.outerbox{
+    width:100vw;
+    height: 50vh;
+    background-color: rgb(17, 94, 68);
+}
+
+.innerbox{
+    width:10%;
+    height:30%;
+    background-color: rgb(190, 181, 244);
+}
+#ib1{
+    position:static;
+}
+
+#ib2{
+    position: relative;
+    top:150px;
+    left:550px;
+}
+#ib3{
+    position:absolute;
+}
+#ib4{
+    position: absolute;
+    background-color: brown;
+    top:0px;
+    left:200px;
+}
+#nav{
+    height:31px;
+    background-color: darkred;
+    position:fixed;
+    top:0px;
+    left:0px;
+}
+#ib5{
+   width: 80%;
+   height:30%;
+   position: sticky;
+   top:0px;
+   left:0px;
+   background-color: darkseagreen; 
+}
