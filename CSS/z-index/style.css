@@ -1,19 +1,40 @@
 * {
-    margin: 0px;
-    padding: 0px;
     border: 0px;
-    /* outline: 1px red dashed; */
+    padding: 0px;
+    margin: 0px;
 }
 
 .container {
     height: 100vh;
     width: 100vw;
-    background-position: center;
-    background-size: cover;
+    box-sizing: border-box;
+}
+
+.background_layer {
+    height: 100vh;
+    width: 99vw;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.background_layer>video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.layerone {
+    height: 100vh;
+    width: 99vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-image: url("background.jpg");
+    justify-content: center;
 }
 
 .logincard {
@@ -74,10 +95,11 @@
     box-shadow: inset 3px 3px 10px 6px rgba(203, 125, 125, 0.589);
     transform: scale(1);
 }
-.txt{
-    outline:none;
-    border:0px;
-    border-bottom:black solid 4px;
+
+.txt {
+    outline: none;
+    border: 0px;
+    border-bottom: black solid 4px;
     background-color: hsla(0, 0%, 100%, 0);
     font-size: medium;
 }
