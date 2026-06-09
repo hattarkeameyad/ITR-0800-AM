@@ -1,0 +1,94 @@
+body {
+    background-color: burlywood;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 10px;
+    background-color: rgb(49, 131, 133);
+}
+
+#b1 {
+    animation: moving 3s cubic-bezier(0.8, 0.82, 0.165, 1) 2s infinite alternate;
+}
+
+#b3 {
+    background-color: rgba(240, 248, 255, 0);
+    animation:wheel alternate-reverse cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s infinite 2s;
+}
+
+#b3>img {
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes moving {
+    from {
+        transform: translateX(10px);
+        background-color: aqua;
+        transform: rotate(180deg);
+    }
+
+    to {
+        transform: translateX(500px);
+        background-color: blue;
+        /* transform: scale(0.8); */
+    }
+}
+
+@keyframes wheel {
+
+    0% {
+        transform: rotate(36deg);
+    }
+
+    10% {
+        transform: rotate(72deg);
+
+    }
+
+    20% {
+        transform: rotate(108deg);
+
+    }
+
+    30% {
+        transform: rotate(144deg);
+
+    }
+
+    40% {
+        transform: rotate(180deg);
+
+    }
+
+    50% {
+        transform: rotate(216deg);
+
+    }
+
+    60% {
+        transform: rotate(252deg);
+
+    }
+
+    70% {
+        transform: rotate(288deg);
+
+    }
+
+    80% {
+        transform: rotate(324deg);
+
+    }
+
+    90% {
+        transform: rotate(360deg);
+
+    }
+
+
+
+
+}
