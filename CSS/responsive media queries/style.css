@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(200, 218, 182);
+}
+
+@media (min-width:576px) {
+    body {
+        background-color: rgb(222, 9, 155);
+    }
+    p{
+        font-size: 70px;
+
+    }
+}
+
+@media (min-width:768px) {
+    body {
+        background-color: rgb(226, 18, 18);
+
+    }
+    p{
+        font-size: 50px;
+
+    }
+}
+
+@media (min-width:992px) {
+    body {
+        background-color: rgb(112, 207, 16);
+
+    }
+    p{
+        font-size: 30px;
+
+    }
+}
+@media (min-width:1200px) {
+    body {
+        background-color: rgb(36, 179, 240);
+    }
+    p{
+        font-size: 20px;
+
+    }
+}
