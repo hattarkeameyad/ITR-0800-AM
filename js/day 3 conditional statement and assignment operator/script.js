@@ -26,6 +26,7 @@ let x = 220, y = 55;
 let result;
 result = (x > y) ? "The x is greater then y" : "The y is greater then x"
 console.log(result);
+result=null
 
 //unary + 
 
@@ -115,3 +116,37 @@ switch (choice) {
 
 //By using switch case create a calculator take input from user for two variable and ask user wht operation he want to perform on it.
 
+let var1 = prompt("Enter first variable");
+let var2 = prompt("Enter second variable");
+
+let choice1 = prompt("Please make choice out of : + - / * % **");
+switch (choice1) {
+    case '+':
+        result = (+var1) + (+var2)
+        break;
+    case '-':
+        result = (+var1) - (+var2)
+        break;
+    case '/':
+        result = (+var1) / (+var2)
+        break;
+    case '*':
+        result = (+var1) * (+var2)
+        break;
+    case '**':
+        result = (+var1) ** (+var2)
+        break;
+    case '%':
+        result = (+var1) % (+var2)
+        break;
+    default:
+        console.log("Either your variable is not a number or we cant serve your request ");
+        break;
+
+}
+if (result === NaN) {
+    console.log("Please enter proper numbers or make a good choice.")
+}
+else {
+    alert("Your result is : " + result);
+}
